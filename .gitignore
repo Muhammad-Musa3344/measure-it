@@ -6,4 +6,4 @@ __pycache__/
 *.pth
 .idea/
 .vscode/
-'@ | Set-Content .gitignore
+'@ | Set-Content .gitignorecalibration/undistorted/
