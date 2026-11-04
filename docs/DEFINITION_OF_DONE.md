@@ -1,0 +1,7 @@
+- [ ] Reprojection error reported, with image count
+- [ ] Test split committed before training (commit link)
+- [ ] Command runs on a new image and prints width and height in mm
+- [ ] Accuracy table for 10+ instances, raw outputs saved
+- [ ] Undistortion comparison: raw vs undistorted errors
+- [ ] Target met, or missed with reason
+- [ ] Everything I did not finish is listed
