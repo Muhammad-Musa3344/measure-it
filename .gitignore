@@ -7,3 +7,5 @@ __pycache__/
 .idea/
 .vscode/
 '@ | Set-Content .gitignorecalibration/undistorted/
+calibration/undistorted/
+dataset/raw/
