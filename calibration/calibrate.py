@@ -1,10 +1,10 @@
-import glob
+﻿import glob
 import sys
 import cv2
 import numpy as np
 
 PATTERN = (9, 7)       # inner corners (columns, rows)
-SQUARE_MM = 25.0       # REPLACE with your calliper measurement
+SQUARE_MM = 25.0  # placeholder: board was shown on a screen, real square size unknown; only affects translation vectors, not camera matrix or distortion
 MIN_IMAGES = 20
 
 paths = sorted(glob.glob("calibration/images/*.jpg"))

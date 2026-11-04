@@ -24,3 +24,6 @@ ChArUco (used checkerboard), lighting and distance experiments (only tilt), a po
 
 ## Decision record
 (filled at the end: approach taken, approach rejected, what rejecting it cost)
+
+## Deviation: calibration board
+The checkerboard (9x7 inner corners) was displayed on a phone/laptop screen, not printed. The screen is flat and rigid, but the square size in mm is unknown, so SQUARE_MM=25.0 is a placeholder. This only scales the extrinsics. Intrinsics and distortion are unaffected. All mm results use the printed ArUco marker, not the board.
