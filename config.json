@@ -1,0 +1,16 @@
+﻿{
+  "seed": 42,
+  "image_w": 1200,
+  "image_h": 1600,
+  "min_size": 640,
+  "max_size": 853,
+  "batch_size": 2,
+  "epochs": 12,
+  "lr": 0.005,
+  "marker_mm": 90.0,
+  "marker_id": 0,
+  "score_thresh": 0.7,
+  "skew_thresh": 1.08,
+  "camera_file": "calibration/camera.npz",
+  "weights": "models/best.pt"
+}
